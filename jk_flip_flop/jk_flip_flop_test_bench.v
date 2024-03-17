@@ -20,7 +20,7 @@ initial begin
 end
 
 initial begin
-    $monitor("j = %b, k = %b, clock = %b, q = %b, time=%t", j, k, clock, q, $time);
+    $monitor("time=%t, j = %b, k = %b, clock = %b, q = %b, q_not = %b", $time, j, k, clock, q, q_not);
 
     j = 1'b0;
     k = 1'b0;

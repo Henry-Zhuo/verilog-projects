@@ -16,10 +16,10 @@ reg s_not;
 reg r_not;
 
 initial begin
-    assign s_not = 1;
-    assign r_not = 0;
-    assign q = 0;
-    assign q_not = 1;
+    s_not = 1;
+    r_not = 0;
+    q = 0;
+    q_not = 1;
 end
 
 // JK flip flop logic
